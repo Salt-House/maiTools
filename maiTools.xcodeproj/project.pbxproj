@@ -30,11 +30,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		6526C8FA2DAF3E8F0094CDE4 /* maiTools */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = maiTools;
-			sourceTree = "<group>";
-		};
 		6526C9092DAF3E920094CDE4 /* maiToolsTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = maiToolsTests;
@@ -43,6 +38,11 @@
 		6526C9132DAF3E920094CDE4 /* maiToolsUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = maiToolsUITests;
+			sourceTree = "<group>";
+		};
+		6526C9772DB153DD0094CDE4 /* maiTools */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = maiTools;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,7 +75,7 @@
 		6526C8EF2DAF3E8F0094CDE4 = {
 			isa = PBXGroup;
 			children = (
-				6526C8FA2DAF3E8F0094CDE4 /* maiTools */,
+				6526C9772DB153DD0094CDE4 /* maiTools */,
 				6526C9092DAF3E920094CDE4 /* maiToolsTests */,
 				6526C9132DAF3E920094CDE4 /* maiToolsUITests */,
 				6526C8F92DAF3E8F0094CDE4 /* Products */,
@@ -108,7 +108,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				6526C8FA2DAF3E8F0094CDE4 /* maiTools */,
+				6526C9772DB153DD0094CDE4 /* maiTools */,
 			);
 			name = maiTools;
 			packageProductDependencies = (
